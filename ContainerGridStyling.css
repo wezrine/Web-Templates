@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    background-color:#2D3142;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+
+}
+
+.container{
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: 47.5% 47.5%;
+    gap: 5%;
+    text-shadow: 1px 1px #ef8354;
+}
+
+.container > .item{
+    background-color:#BFC0c0;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px 2px #EF8354;
+}
+
+.container{
+    background-color:#4f5d75;
+    width: 180px;
+    padding:0;
+    margin: auto;
+}
